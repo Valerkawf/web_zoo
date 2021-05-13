@@ -3,16 +3,26 @@ import { Jumbotron as Jumbo} from "react-bootstrap";
 import banner2 from "./banner2.jpg";
 import styled from "styled-components";
 
+
 const Styles = styled.div`
   .jumbo {  
-    background: url(${banner2}) no-repeat  bottom;
+    background: url(${banner2});
     background-size: cover;
     color: #efefef;
-    height: 1500px;
+    height: 1400px;
     position: relative;
-    z-index: 3;
+    z-index: 3 
   }
-
+  .overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
 `;
 
 const JumbotronAnimals = () => (

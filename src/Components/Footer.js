@@ -2,61 +2,57 @@ const Footer = () => {
   return (
     <footer class="bg-dark text-center text-white">
       <div class="container p-4 pb-0">
-        <section class="mb-4">
+        <section class="mb-1">
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href="#!"
+            href="https://www.instinctools.by"
             role="button"
+            target="_blank  "
           >
-            <i class="fab fa-facebook-f"></i>
+            <i class="fa fa-facebook  "></i>
           </a>
 
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href="#!"
+            href="https://www.instinctools.by"
             role="button"
+            target="_blank  "
           >
-            <i class="fab fa-twitter"></i>
+            <i class="fa fa-twitter"></i>
           </a>
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href="#!"
+            href="https://www.instinctools.by"
             role="button"
+            target="_blank  "
           >
-            <i class="fab fa-google"></i>
+            <i class="fa fa-google"></i>
           </a>
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href="#!"
+            href="https://www.instagram.com/valerij.ilyuk/"
             role="button"
+            target="_blank  "
           >
-            <i class="fab fa-instagram"></i>
+            <i class="fa fa-instagram"></i>
           </a>
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href="#!"
+            href="https://www.instinctools.by"
             role="button"
+            target="_blank  "
           >
-            <i class="fab fa-linkedin-in"></i>
+            <i class="fa fa-linkedin"></i>
           </a>
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href="#!"
+            href="https://www.instinctools.by"
             role="button"
+            target="_blank  "
           >
-            <i class="fab fa-github"></i>
+            <i class="fa fa-github"></i>
           </a>
         </section>
-      </div>
-
-      <div
-        class="text-center p-3"
-        style="background-color: rgba(0, 0, 0, 0.2);"
-      >
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">
-          MDBootstrap.com
-        </a>
       </div>
     </footer>
   );
