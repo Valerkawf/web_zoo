@@ -9,7 +9,7 @@ import monkey from "./monkey.jpg";
 import lori from "./lori.jpg";
 import styled from "styled-components";
 import CustomCard from "./CustomCard";
-import {useState} from 'react';
+import { useState } from "react";
 
 const StyledCol = styled(Col)`
   margin-bottom: 15px;
@@ -17,7 +17,7 @@ const StyledCol = styled(Col)`
 
 const AnimalCards = () => {
   const [filterValue, setFilterValue] = useState("");
-  
+
   const animals = [
     {
       name: "Elephant",
@@ -72,7 +72,7 @@ const AnimalCards = () => {
   let animalsContainer = [];
 
   animals.forEach((animal) => {
-    if (filterValue === animal.name.slice(0,filterValue.length)) {
+    if (filterValue === animal.name.slice(0, filterValue.length)) {
       animalsContainer.push(
         <StyledCol className="col-lg-3 ">
           <CustomCard
@@ -81,14 +81,18 @@ const AnimalCards = () => {
             modalText={animal.modalText}
           />
         </StyledCol>
-      );  
+      );
     }
-
   });
-  
+
   return (
     <Container>
-     <Form.Control placeholder="Enter the name of the animal" text="Enter the name of the animal" value={filterValue} onChange={(event) => setFilterValue(event.target.value) }/>
+      <Form.Control
+        placeholder="Enter the name of the animal"
+        text="Enter the name of the animal"
+        value={filterValue}
+        onChange={(event) => setFilterValue(event.target.value)}
+      />
       <Row>{animalsContainer}</Row>
     </Container>
   );

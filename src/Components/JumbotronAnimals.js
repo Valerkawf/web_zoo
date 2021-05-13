@@ -1,17 +1,16 @@
 import React from "react";
-import { Jumbotron as Jumbo} from "react-bootstrap";
+import { Jumbotron as Jumbo } from "react-bootstrap";
 import banner2 from "./banner2.jpg";
 import styled from "styled-components";
 
-
 const Styles = styled.div`
-  .jumbo {  
+  .jumbo {
     background: url(${banner2});
     background-size: cover;
     color: #efefef;
     height: 1400px;
     position: relative;
-    z-index: 3 
+    z-index: 3;
   }
   .overlay {
     background-color: #000;

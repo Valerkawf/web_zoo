@@ -15,7 +15,7 @@ const BigBoard = () => {
           <img src={logo111} alt="logo" height={100} />
         </Col>
         <Col md={5}>
-          <p class="sec-title centered" >
+          <p class="sec-title centered">
             What is a "ZOO" in your understanding? Institution for keeping
             animals in captivity for the purpose of demonstration, preservation,
             reproduction and research, including research? Yes, but we are all
