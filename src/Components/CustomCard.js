@@ -6,6 +6,7 @@ const StyledCard = styled(Card)`
   width: 250px;
   border-radius: 10px 10px 100px 10px;
   margin: 15px;
+  cursor:pointer;
   &:hover {
     transition-duration: 0.2s;
     color: white;
